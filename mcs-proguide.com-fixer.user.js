@@ -13,6 +13,13 @@
         document.getElementsByTagName('td'),
         function(div) {
             div.style.fontSize = '8pt';
+            div.style.borderStyle = 'none';
+        }
+    );
+    Array.prototype.forEach.call(
+        document.getElementsByTagName('table'),
+        function(div) {
+            div.style.borderStyle = 'none';
         }
     );
 })();
