@@ -13,6 +13,7 @@
         document.getElementsByTagName('td'),
         function(div) {
             div.style.fontSize = '8pt';
+            div.style.lineHeight = '1.55em';
             div.style.borderStyle = 'none';
         }
     );
@@ -20,6 +21,13 @@
         document.getElementsByTagName('table'),
         function(div) {
             div.style.borderStyle = 'none';
+        }
+    );
+    Array.prototype.forEach.call(
+        document.getElementsByTagName('p'),
+        function(div) {
+            div.style.fontSize = '8pt';
+            div.style.lineHeight = '1.55em';
         }
     );
 })();
