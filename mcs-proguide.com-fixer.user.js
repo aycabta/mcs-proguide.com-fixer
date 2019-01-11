@@ -9,25 +9,16 @@
 // ==/UserScript==
 
 (function() {
-    Array.prototype.forEach.call(
-        document.getElementsByTagName('td'),
-        function(div) {
-            div.style.fontSize = '8pt';
-            div.style.lineHeight = '1.55em';
-            div.style.borderStyle = 'none';
-        }
-    );
-    Array.prototype.forEach.call(
-        document.getElementsByTagName('table'),
-        function(div) {
-            div.style.borderStyle = 'none';
-        }
-    );
-    Array.prototype.forEach.call(
-        document.getElementsByTagName('p'),
-        function(div) {
-            div.style.fontSize = '8pt';
-            div.style.lineHeight = '1.55em';
-        }
-    );
+    document.querySelectorAll('td').forEach((div) => {
+        div.style.fontSize = '8pt';
+        div.style.lineHeight = '1.55em';
+        div.style.borderStyle = 'none';
+    });
+    document.querySelectorAll('table').forEach((div) => {
+        div.style.borderStyle = 'none';
+    });
+    document.querySelectorAll('p').forEach((div) => {
+        div.style.fontSize = '8pt';
+        div.style.lineHeight = '1.55em';
+    });
 })();
