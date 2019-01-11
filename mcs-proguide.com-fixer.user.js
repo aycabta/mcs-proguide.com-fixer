@@ -5,7 +5,7 @@
 // @version    0.0.2
 // @description  Font size fixing
 // @include    /^http:\/\/www.mcs-proguide.com\//
-// @copyright  2019, aycabta
+// @copyright  2019+, aycabta
 // ==/UserScript==
 
 (function() {
