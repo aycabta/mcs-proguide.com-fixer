@@ -2,7 +2,7 @@
 // @name       MCS-ProGuide.com Fixer
 // @license    MIT
 // @namespace  https://github.com/aycabta
-// @version    0.0.2
+// @version    0.0.3
 // @description  Font size fixing
 // @include    /^http:\/\/www.mcs-proguide.com\//
 // @copyright  2019+, aycabta
